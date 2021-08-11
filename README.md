@@ -1,6 +1,11 @@
 # Ethereum-vanity-address
 This script lets you generate Ethereum addresses that begin with a custom hexadecimal string
 
+## Disclaimers
+
+ - I have not tested or optimized the performance of the script.
+ - It uses the `crypto.randomBytes(32)` function to generate the private key, which I did not write.
+
 ## Installation 
 
 You will need [nodejs](nodejs.org) to run this script, as well as the [ethereum-private-key-to-address](https://www.npmjs.com/package/ethereum-private-key-to-address) package. It can be installed by doing `npm install ethereum-private-key-to-address` inside the directory. You may want to `mkdir node_modules` (without `cd`'ing into it) before installing the package (this can solve a failing installation).
