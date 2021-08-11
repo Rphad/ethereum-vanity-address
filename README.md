@@ -18,3 +18,11 @@ node vanity_Eth.js [i or s for case sensitivity] [hex string]
 ```
 node vanity_Eth.js i B00B5
 ```
+
+Output :
+
+```
+Found a match after 1567301 tries !
+Address : 0xb00b533501CfA9149373b7Cddae840673507Ef66
+Private key: 1ea07018c5def61040b7f92a7cb07258e0d106f57a257b3164085aadbfe64d68
+```
