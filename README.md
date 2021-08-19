@@ -3,7 +3,7 @@ This script lets you generate Ethereum addresses that begin with a custom hexade
 
 ## Disclaimers
 
- - I have not tested or optimized the performance of the script.
+ - I have not benchmarked or optimized the performance of the script.
  - It uses the `crypto.randomBytes(32)` function to generate the private key, which I did not write.
 
 ## Installation 
